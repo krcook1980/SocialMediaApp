@@ -23,6 +23,7 @@ const typeDefs = gql`
         email: String,
         password: String,
         thoughts: [Thought],
+        friendCount: Int,
         friends: [User]
     }
 
